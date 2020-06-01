@@ -16,7 +16,6 @@ require 'pry'
   
 def remove_strawberry(contacts)
   
-result = remove_strawberry(contacts)
-result["Freddy Mercury"][:favorite_ice_cream_flavors] = ["cookie dough", "mint chip"]
+contacts["Freddy Mercury"][:favorite_ice_cream_flavors] = ["cookie dough", "mint chip"]
 
 end
